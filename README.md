@@ -48,6 +48,7 @@ Save notes locally with timestamps for easy reference.
 ### Screenshots:
 #### Homepage:
 ![Homepage](images/homepage.png)
+#### Blogspage:
 ![BlogsPage](images/blogs.png)
 #### Blog Listing:
 Add blog listing screenshots to showcase how blogs are displayed.
