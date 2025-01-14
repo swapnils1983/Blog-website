@@ -138,6 +138,36 @@ header {
     font-size: 1rem;
 }
 
+
+.blog-title-input {
+    word-break: break-word;
+    overflow-wrap: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.editor-text {
+    word-break: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.post-inner {
+    word-break: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+}
+.blog-heading {
+    word-break: break-word; 
+    overflow-wrap: break-word;
+    white-space: normal; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%; 
+}
+
 .btn {
     display: inline-block;
     background: #0078D4;
