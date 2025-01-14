@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlogCraft - Enhanced Blogging Platform</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="head">
+        <nav class="navbar">
+            <a href="index.html" class="nav-item">Write Blog,s</a>
+            <div class="nav_btns">
+                <a href="blogs.html" class="blogs_link">View All Blogs</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="outer-editor">
+            <h2>Create New Blog</h2>
+            <div class="blog-title-section">
+                <input type="text" id="blog-title" placeholder="Enter your blog title..." class="blog-title-input">
+            </div>
+            <div class="editor-btns">
+                <button class="editor-btn" id="bold"><i class="fa-solid fa-bold"></i></i></button>
+                <button class="editor-btn" id="italic"><i class="fas fa-italic"></i></button>
+                <button class="editor-btn" id="underline"><i class="fas fa-underline"></i></button>
+                <button class="editor-btn" id="h1">H1</button>
+                <button class="editor-btn" id="h2">H2</button>
+                <button class="editor-btn" id="insertUnorderedList"><i class="fas fa-list-ul"></i></button>
+                <button class="editor-btn" id="justifyLeft"><i class="fas fa-align-left"></i></button>
+                <button class="editor-btn" id="justifyCenter"><i class="fas fa-align-center"></i></button>
+                <button class="editor-btn" id="justifyRight"><i class="fas fa-align-right"></i></button>
+                <button class="editor-btn" id="justifyFull"><i class="fas fa-align-justify"></i></button>
+                <button class="editor-btn" id="insertImage"><i class="fas fa-image"></i></button>
+                <button class="editor-btn" id="createLink"><i class="fas fa-link"></i></button>
+                <button class="editor-btn" id="insertHTML"><i class="fas fa-video"></i></button>
+                <input type="color" id="fontColor" class="editor-input">
+                
+
+            </div>
+            <div id="main-editor" class="editor-text" contenteditable="true"></div>
+            
+            <button class="btn" id="save-blog">Save Blog</button>
+        </div>
+
+        <div class="notes-conatiner">
+            <h3>Quick Notes</h3>
+            <div id="notes-list"></div>
+            <div class="note-input">
+                <input type="text" id="new-note-input" placeholder="Add a new note..." class="note-input">
+                <button class="btn" id="add-note-btn">Add</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
